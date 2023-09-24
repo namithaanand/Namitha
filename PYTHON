@@ -1,0 +1,12 @@
+ph_num = input("Enter a phone number : ")
+print("Without using Regular Expression")
+if checkphonenumber1(ph_num):
+    print("Valid phone number")
+else:
+    print("Invalid phone number")
+
+print("Using Regular Expression")
+if checkphonenumber2(ph_num):
+    print("Valid phone number")
+else:
+    print("Invalid phone number")
